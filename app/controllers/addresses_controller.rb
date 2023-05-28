@@ -8,7 +8,7 @@ class AddressesController < ApplicationController
 
   # POST /contacts/1/address
   def create
-    @contact.adress = Address.new(address_params)
+    @contact.address = Address.new(address_params)
 
     if @contact.save
       render json: @contact.address, status: :created, location: contact_address_url(@contact)
