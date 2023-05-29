@@ -14,6 +14,7 @@ gem 'puma', '~> 3.11'
 # A pure ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard
 gem 'jwt'
 gem 'devise_token_auth'
+gem 'devise-i18n'
 
 gem 'foreman'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
