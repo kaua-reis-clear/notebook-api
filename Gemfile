@@ -22,7 +22,7 @@ gem 'versionist', '~> 1.5.0'
 
 gem 'kaminari'
 
-gem 'api-pagination'
+# gem 'api-pagination'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
